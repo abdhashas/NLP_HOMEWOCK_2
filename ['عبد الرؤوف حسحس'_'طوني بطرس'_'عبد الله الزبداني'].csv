@@ -1,0 +1,17 @@
+question_step_number,model_name,features,accuracy
+2.1,taget_labet_classifier,,0.9546923495344447
+2.2.1,classify_words,top_100_words,0.4176079096406745
+2.2.2,classify_with_backoff,top_100_words,0.851182286500496
+2.3.1,UnigramTagger,,0.781634446397188
+2.3.2,BigramTagger,,0.781634446397188
+3.2,MultinomialNB,pronoun_type,1.0
+3.2,MultinomialNB,pos,0.4
+3.2,MultinomialNB,adjective,0.9333333333333333
+3.2,MultinomialNB,gender,0.8
+3.2,MultinomialNB,number,0.8
+3.3,LogisticRegression,adjective,0.9333333333333333
+3.3,LogisticRegression,pos,0.4
+3.3,LogisticRegression,gender,0.6666666666666666
+3.3,LogisticRegression,number,0.8
+3.4,CRF,,
+4,LSTM,numeric data,0.9628059267997742
